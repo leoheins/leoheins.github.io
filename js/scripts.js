@@ -211,11 +211,10 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
+        if (MD5($('#invite_code').val()) !== 'ee8185e458a5e9f3fe704fc440831d3e') {
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong>Väärä koodi! Oikea koodi on hääpäivän pvm muodossa "DDMMYY" :)'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbybpEfcMAlR1If0ktnDKKPT4S18RRYeiFdLutD_rmgLLqE16c_TZw7orfn4DUlLhAT0/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
