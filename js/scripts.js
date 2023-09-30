@@ -232,7 +232,7 @@ $(document).ready(function () {
     });
 
 
-/********************** RSVP **********************/
+/********************** RSVP Activities **********************/
     $('#rsvp_activities-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
