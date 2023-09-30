@@ -230,35 +230,6 @@ $(document).ready(function () {
                 });
         }
     });
-
-
-/********************** RSVP Activities **********************/
-    $('#rsvp_activities-form').on('submit', function (e) {
-        e.preventDefault();
-        var data = $(this).serialize();
-
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
-
-        if (MD5($('#invite_code').val()) !== 'ee8185e458a5e9f3fe704fc440831d3e') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong>Väärä koodi! Oikea koodi on hääpäivän pvm muodossa "DDMMYY" :)'));
-        } else {
-            $.post('https://script.google.com/macros/s/AKfycbzn7IVmztRCIhJMI9V9Bt8xHvZIiEHlQaaieoMgvoc-5j3pkG998dSaOugXCKfi5dzA/exec', data)
-                .done(function (data) {
-                    console.log(data);
-                    if (data.result === "error") {
-                        $('#alert-wrapper').html(alert_markup('danger', data.message));
-                    } else {
-                        $('#alert-wrapper').html('');
-                        $('#rsvp-modal').modal('show');
-                    }
-                })
-                .fail(function (data) {
-                    console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
-                });
-        }
-    });
-
 });
 
 /********************** Extras **********************/
