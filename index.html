@@ -390,7 +390,6 @@
                     <div class="section-padding">
                         <h3>Kiitos!</h3>
                         <p>Nähdään Italiassa!</p>
-                        <div id="add-to-cal"></div>
                     </div>
                 </div>
             </div><!-- /.modal-content -->
@@ -430,8 +429,8 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-city"></i>
-                                <select class="btn-fill-select form-select" aria-label="Default select example" required>
-                                    <option selected>Saapumiskaupunki</option>
+                                <select name="city" class="btn-fill-select form-select" aria-label="Default select example" required>
+                                    <option disabled selected>Saapumiskaupunki</option>
                                     <option value="Bologna">Bologna</option>
                                     <option value="Pisa">Pisa</option>
                                     <option value="Rooma">Rooma</option>
@@ -445,8 +444,8 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-car"></i>
-                                <select class="btn-fill-select form-select" aria-label="Default select example" required>
-                                    <option selected>Auto</option>
+                                <select name="car" class="btn-fill-select form-select" aria-label="Default select example" required>
+                                    <option disabled selected>Auto</option>
                                     <option value="Yhteisvuokra">Olen kiinnostunut auton yhteisvuokrasta</option>
                                     <option value="Tilaa">Vuokraan auton ja siinä on tilaa muille</option>
                                     <option value="Vailla">Olen kiinnostunut yhteiskyydistä, jos jollain on tilaa</option>
@@ -456,6 +455,7 @@
                         </div>
                     </div>
                     <div class="row">
+                        <p>Valitse aktiviteetit, joista olet kiinnostunut:</p>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -464,7 +464,7 @@
                                 </label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                                 <label class="form-check-label" for="flexCheckChecked">
                                 Checked checkbox
                                 </label>
