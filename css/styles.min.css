@@ -1011,8 +1011,8 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-user-plus,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-calendar,
-.rsvp .rsvp-form .form-input-group .fa-key 
-.rsvp .rsvp-form .form-input-group .fa-city
+.rsvp .rsvp-form .form-input-group .fa-key, 
+.rsvp .rsvp-form .form-input-group .fa-city,
 .rsvp .rsvp-form .form-input-group .fa-car {
     font-size: 14px;
     position: absolute;
