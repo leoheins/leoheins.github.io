@@ -1032,19 +1032,23 @@ header .member-actions {
     border: none
 }
 
-.rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder {
+.rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder,
+.rsvp .rsvp-form .form-input-group select::-webkit-input-placeholder {
     color: #bcc1c3
 }
 
-.rsvp .rsvp-form .form-input-group input:-moz-placeholder {
+.rsvp .rsvp-form .form-input-group input:-moz-placeholder,
+.rsvp .rsvp-form .form-input-group select:-moz-placeholder {
     color: #bcc1c3
 }
 
-.rsvp .rsvp-form .form-input-group input::-moz-placeholder {
+.rsvp .rsvp-form .form-input-group input::-moz-placeholder,
+.rsvp .rsvp-form .form-input-group select::-moz-placeholder {
     color: #bcc1c3
 }
 
-.rsvp .rsvp-form .form-input-group input:-ms-input-placeholder {
+.rsvp .rsvp-form .form-input-group input:-ms-input-placeholder,
+.rsvp .rsvp-form .form-input-group select:-ms-input-placeholder {
     color: #bcc1c3
 }
 
