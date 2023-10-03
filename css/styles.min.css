@@ -1011,7 +1011,9 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-user-plus,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-calendar,
-.rsvp .rsvp-form .form-input-group .fa-key {
+.rsvp .rsvp-form .form-input-group .fa-key 
+.rsvp .rsvp-form .form-input-group .fa-city
+.rsvp .rsvp-form .form-input-group .fa-car {
     font-size: 14px;
     position: absolute;
     top: 50%;
@@ -1019,7 +1021,8 @@ header .member-actions {
     margin-left: 20px
 }
 
-.rsvp .rsvp-form .form-input-group input {
+.rsvp .rsvp-form .form-input-group input 
+.rsvp .rsvp-form .form-input-group select {
     padding-left: 68px;
     width: 100%;
     height: 100%;
