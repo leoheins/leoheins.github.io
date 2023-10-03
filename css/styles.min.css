@@ -83,6 +83,17 @@ h5 {
     background-color: #e8ca6f
 }
 
+.btn-fill-select {
+    color: #fff;
+    border: solid 2px #e8ca6f;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #fff
+}
+
 .btn-fill:hover,
 .btn-fill:focus {
     color: #fff;
