@@ -1003,6 +1003,18 @@ header .member-actions {
     position: relative
 }
 
+.rsvp .rsvp-form .form-check {
+    width: 100%;
+    height: 55px;
+    margin: 0 auto 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #e6e9ea;
+    text-align: left;
+    position: relative
+}
+
 .rsvp .rsvp-form .form-input-group i {
     color: #e8ca6f;
     font-size: 14px
@@ -1022,9 +1034,9 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-user-plus,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-calendar,
-.rsvp .rsvp-form .form-input-group .fa-key, 
-.rsvp .rsvp-form .form-input-group .fa-city,
-.rsvp .rsvp-form .form-input-group .fa-car {
+.rsvp .rsvp-form .form-input-group i.fa-key, 
+.rsvp .rsvp-form .form-input-group i.fa-city,
+.rsvp .rsvp-form .form-input-group i.fa-car {
     font-size: 14px;
     position: absolute;
     top: 50%;
