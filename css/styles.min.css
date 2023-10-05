@@ -1004,13 +1004,13 @@ header .member-actions {
 }
 
 .rsvp .rsvp-form .form-check {
-    color: #bcc1c3;
+    color: #e8ca6f;
     font-size: 13px;
     border: solid 1px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border-color: #e8ca6f;
+    border-color: #bcc1c3;
     display: inline-table;
 }
 
