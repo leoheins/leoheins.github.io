@@ -1115,5 +1115,9 @@ body.modal-open {
 }
 
 .modal-body {
-    padding: 25px
+    display: flex;
+  }
+  
+.modal-body img {
+object-fit: contain;
 }
